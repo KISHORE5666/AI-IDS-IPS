@@ -1,17 +1,3 @@
-"""
-============================================================
- AI-Powered Network Intrusion Detection System (IDS)
- Author  : Gokula Kannan
- Stack   : Python 3, Flask, Scikit-learn, Pandas, NumPy
- Run     : python ids_complete.py
- Open    : http://127.0.0.1:5000
- Login   : admin / admin123  or  analyst / analyst123
-============================================================
-"""
-
-# ─────────────────────────────────────────────────────────
-# IMPORTS
-# ─────────────────────────────────────────────────────────
 import os, csv, json, time, random, threading, warnings
 from datetime import datetime
 from functools import wraps
